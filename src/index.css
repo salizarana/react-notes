@@ -73,3 +73,21 @@ textarea:focus{
   cursor: pointer;
   color: red;
 }
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  padding: 5px;
+}
+
+.search input {
+  border: none;
+  background-color: rgb(233, 233, 233);
+}
+
+.search input:focus {
+  outline: none;
+}
